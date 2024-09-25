@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8"/><!--<meta charset="iso-8859-1"> -->
+	<title>LIBROS EN LA WEB</title>
+	<link rel="stylesheet" href="estilos3.css"/>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="test menu/CSS3 Menu_files/style.css" type="text/css" />
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css" />
+</head>
+<body>
+<div id="principal">
+	<header><!-- header -->
+		<h1><a href="#">HTML5, CSS3 y Javascript</a></h1>
+		<h2>Contactos...</h2>
+		<img src="images/CSS3.jpg" width="940" height="200" alt="">
+	</header><!-- fin de header -->
+
+<!-- nav v1 -->
+
+	<!--nav>
+		<div class="menu">
+			<ul>
+				<li><a href="#">HTML5</a></li>
+				<li><a href="#">Estructura</a></li>
+				<li><a href="#">Referencia rápida</a></li>
+				<li><a href="#">Estilos CSS3</a></li>
+				<li><a href="#">Propiedades CSS3</a></li>
+				<li><a href="#">Javascript</a></li>
+			</ul>
+		</div>       
+	</nav-->
+
+<!-- Fin de nav -->
+
+
+<!-- nav v2 -->
+<nav>
+	<ul id="css3menu">
+		<li class="topitem"><a href="#" title="Item 0">HTML 5</a></li>
+		<li class="topitem"><a href="#" title="Item 1">Estructure</a></li>
+		<li class="topitem"><a href="#" title="Item 2"><span>Formularios con html</span></a>
+		<ul>
+			<li class="subfirst"><a href="#" title="Formularios con html 1">Formularios</a></li>
+			<li class="sublast"><a href="#" title="Formularios con html 0"><span>Etiquetas</span></a>
+			<ul>
+				<li class="subfirst"><a href="#" title="Formularios con html 0 3">Tipos de entrada de datos</a></li>
+				<li><a href="#" title="Formularios con html 0 2">Requiered</a></li>
+				<li><a href="#" title="Formularios con html 0 1">Patterns</a></li>
+				<li class="sublast"><a href="#" title="Formularios con html 0 0">Disabled</a></li>
+			</ul>
+	
+			</li>
+		</ul>
+	
+		</li>
+		<li class="topitem"><a href="#" title="Item 3">Estilos CSS4</a></li>
+		<li class="topitem"><a href="#" title="Item 4">Bootstrap</a></li>
+		<li class="topitem"><a href="#" title="Item 5">JavaScript</a></li>
+	</ul>
+</nav>
+<!-- Fin de nav -->
+	
+	<section id="main"><!-- #main content and sidebar area -->
+			<section id="content"><!-- #content -->
+        		<article>
+					<h2><a href="#">Primer articulo Modernizr</a></h2>
+					<img src="images/flowersky.jpg" alt="flower" class="alignleft" />
+                    <p align="justify"> Sin importar cuál es la opción elegida, 
+                    lo primero que debemos hacer es detectar silas características de 
+                    <a href="#">HTML5 </a>requeridas por su aplicación 
+                    están disponibles en el navegador del usuario o no. 
+                    Estas características son independientes 
+                    y fáciles de identificar, pero las técnicas requeridas para hacerlo 
+                    son tan diversas como las características mismas. 
+                    
+                    Desarrolladores deben considerar diferentes navegadores y versiones, 
+                    y depender de códigos que a menudo no son para nada confiables.</p>                     
+                    <p align="justify">Una pequeña librería llamada Modernizr 
+                    fue desarrollada con la intención de resolver este problema. 
+                    
+                    Esta librería crea un objeto llamado Modernizr que ofrece propiedades 
+                    para cada característica de HTML5. Estas propiedades retornan un 
+                    valor booleano que será true (verdadero) o false (falso) dependiendo 
+                    si la característica está disponible o no.</p>
+				</article>
+						
+        		<article>
+                    <h2><a href="#">Segundo articulo API Offline</a></h2>
+                    <p align="justify">El archivo manifiesto por sí mismo debería ser suficiente 
+                    para generar un caché para sitios webs pequeños o códigos simples, 
+                    pero aplicacionescomplejas demandan mayor control. El archivo manifiesto 
+                    declara losarchivos necesarios para el caché, pero no puede informar 
+                    sobre cuántos de estos archivos ya fueron descargados, 
+                    o los errores encontrados en el proceso, o cuándo una actualización 
+                    está lista para ser usada, entre otras importantes situaciones. 
+                    
+                    Considerando estos posibles escenarios, la API provee el nuevo objeto 
+                    ApplicationCache con métodos, propiedades y eventos para controlar todo el proceso.</p>
+				</article> 
+
+				<form class="form-horizontal" role="form">
+					<div class="form-group">
+					  <label for="inputEmail3" class="col-sm-2 control-label">Entidad</label>
+					  <div class="col-sm-8">
+						<input type="text" class="form-control" id="inputEmail3" placeholder="Nombre dela institucion">
+					  </div>
+					</div>
+					<div class="form-group">
+					  <label for="inputPassword3" class="col-sm-2 control-label">Mes</label>
+					  <div class="col-sm-7">
+						<input type="text" class="form-control" id="inputPassword3" placeholder="-------- de ----">
+					  </div>
+					</div>
+					<div class="form-group">
+						<label for="inputPassword3" class="col-sm-2 control-label">Correo Electronico</label>
+						<div class="col-sm-5">
+						  <input type="email" class="form-control" id="inputEmail3" placeholder="">
+						</div>
+					  </div>
+					<div class="form-group">
+						<label for="inputEmail3" class="col-sm-2 control-label">Direcion Url</label>
+						<div class="col-sm-5">
+						<input type="text" class="form-control" id="inputEmail3" placeholder="">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputPassword3" class="col-sm-2 control-label">Telefono</label>
+						<div class="col-sm-3">
+						<input type="text" class="form-control" id="inputPassword3" placeholder="">
+						</div>
+					</div>
+						  
+
+					<div class="form-group">
+					  <div class="col-sm-offset-7 col-sm-10">
+						<div class="checkbox">
+						  <label>
+							<input type="checkbox">Confirmado
+						  </label>
+						</div>
+					  </div>
+					</div>
+
+					<div class="form-group">
+					  <div class="col-sm-offset-7 col-sm-10">
+						<button type="submit" class="btn btn-primary">Enviar</button>
+						<button type="submit" class="btn btn-danger">Limpiar</button>
+					  </div>
+					</div>
+				  </form>
+				
+
+</section><!-- Fin de la seccion #contenido -->
+    
+         
+<!-- sidebar -->
+<!--aside id="sidebar">
+	<h3>Things To Do</h3>
+  
+		<ul>
+			<li><a href="#">Trabajando para el mundo</a></li>
+			<li><a href="#">Las alternativas</a></li>
+			<li><a href="#">Modernizr</a></li>
+			<li><a href="#">Librerías</a></li>
+			<li><a href="#">Google Chrome Frame</a></li>
+			<li><a href="#">Trabajando para la nube</a></li>
+		</ul>
+
+	<h3>Sponsors</h3>
+	<img src="images/3618.jpg" alt="" /><br/><br/>
+	<h3>Conectando con: </h3>
+		<ul>
+			<li><a href="#">Twitter</a></li>
+			<li><a href="#">Facebook</a></li>
+			<li><a href="#">LinkedIn</a></li>
+			<li><a href="#">Flickr</a></li>
+		</ul>
+</aside-->
+<!-- Fin de sidebar -->
+
+<!-- sidebar v2-->
+<aside id="sidebar">
+	<h3>Things To Do</h3>
+	<div class="padding_menu">
+		<div class="lefnav">
+			<a href="#" class="active" title="Only For Css Menu">Herramientas Alternativas</a>
+			<a href="#" title="Only For Css Menu">Trabajando para el mundo</a>
+			<a href="#" title="Only For Css Menu">Las alternativas</a>
+			<a href="#" title="Only For Css Menu">Modernizr</a>
+			<a href="#" title="Only Css Menu">Librerías</a>
+			<a href="#">Google Chrome Frame</a>
+			<a href="#" title="Only For Css Menu">Trabajando para la nube</a>
+		</div>
+	</div>
+	<br>
+	<h3>Sponsors</h3>
+	<img src="images/3618.jpg" alt="" /><br/><br/>
+	<h3>Conectando con: </h3>
+		<ul>
+			<li><a href="#">Twitter</a></li>
+			<li><a href="#">Facebook</a></li>
+			<li><a href="#">LinkedIn</a></li>
+			<li><a href="#">Flickr</a></li>
+		</ul>
+	<!--formulario-->
+	<form action="">
+		password:</br>
+		<input type="text" disabled></br>
+		Carnet de Identidad:</br>
+		<input type="text" pattern="[0-9]{8}"></br>
+		Nombres:</br>
+		<input type="text" placeholder="Nombre Completo" required autofocus></br>
+		Correo Electronico:</br>
+		<input type="email" required>
+		Direccion URL:</br>
+		<input type="url"></br>
+		<input type="submit" value="Enviar">
+		<input type="Reset" value="Limpiar">
+	</br>
+	</br>
+
+	</form>
+</aside>
+<!-- Fin de sidebar -->
+
+
+
+</section><!-- Fin de #main content and sidebar-->	
+<footer>
+	<section id="footer-area">
+		<section id="footer-outer-block">
+			<aside class="footer-segment">
+				<h4>Servidores</h4>
+					<ul>
+						<li><a href="#">Servidor WS</a></li>
+						<li><a href="#">Constructor</a></li>
+						<li><a href="#">Métodos</a></li>
+					</ul>
+			</aside>
+			<aside class="footer-segment">
+				<h4>Ajax</h4>
+					<ul>
+						<li><a href="#">Ajax nivel 2</a></li>
+						<li><a href="#">Obteniendo datos</a></li>
+						<li><a href="#">Response</a></li>
+					</ul>
+			</aside>
+			<aside class="footer-segment">
+			<h4>Plantillas</h4>
+					<ul>
+						<li><a href="#">Plantilla</a></li>
+						<li><a href="#">Leyendo archivos</a></li>
+						<li><a href="#">Eventos</a></li>
+					</ul>
+			</aside><!-- Fin de #third footer segment -->
+			<aside class="footer-segment">
+			<h4>HTML5</h4>
+				<p>&copy; 2017 <a href="#">copy.com</a> HTML 5, CSS3, JavaScript.</p>
+			</aside><!-- Fin de #fourth footer segment -->
+		</section><!-- Fin de footer-outer-block -->
+	</section><!-- Fin de footer-area -->
+</footer>
+	
+</div><!-- #principal -->
+</body>
+</html>
